@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Loja Dandara </title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@100&display=swap">
+</head>
+
+<body>
+    <header>
+        <div>
+            <p>
+                <strong>RÔANA GÓES</strong> <br/>
+                <small>Último login em: 13/10/2023 20:25</small>
+            </p>
+        </div>
+
+        <nav>
+            <ul id="menuNavegacao">
+                <li>
+                    <a id="btnInício" href="#">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <strong>Início</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#clientes">
+                        Nossos clientes
+                    </a>
+                </li>
+                <li>
+                    <a href="#pedidos">
+                        Pedidos
+                    </a>
+                </li>
+                <li>
+                    <a href="#faleConosco">
+                        Fale Conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main> 
+        <section>
+            <h1>Nova coleção 2023</h1>
+            <h2 class="subtitulo">Ganhe <strong>10%</strong> off na 1° compra</h2>
+
+            <ol class="listaImagens">
+                <li>
+                    <figure> 
+                        <img src="img/IMG-20231007-WA0030.jpg" alt="Imagem 1"> <!--"C:\Users\rowgo\Desktop\CURSOS\Básico em Tecnologia\M2 HTML_CSS\Aula_pratica\img\IMG-20231007-WA0030.jpg"-->
+                    </figure>
+                </li>
+                <li>
+                    <figure> 
+                        <img src="img/IMG-20231007-WA0031.jpg" alt="Imagem 2"> <!--"C:\Users\rowgo\Desktop\CURSOS\Básico em Tecnologia\M2 HTML_CSS\Aula_pratica\img\IMG-20231007-WA0031.jpg"--> 
+                    </figure>
+                </li>
+                <li>
+                    <figure> 
+                        <img src="img/IMG-20231007-WA0029.jpg" alt="Imagem 3"> <!--"C:\Users\rowgo\Desktop\CURSOS\Básico em Tecnologia\M2 HTML_CSS\Aula_pratica\img\IMG-20231007-WA0029.jpg"-->
+                    </figure>
+                </li>
+                <li>
+                    <figure> 
+                        <img src="img/IMG-20231007-WA0028.jpg" alt="Imagem 4"> <!--"C:\Users\rowgo\Desktop\CURSOS\Básico em Tecnologia\M2 HTML_CSS\Aula_pratica\img\IMG-20231007-WA0028.jpg"-->
+                    </figure>
+                </li>
+            </ol>
+
+            <a href="https://www.cea.com.br" target="_blanck">
+                <p class="text-center">Clique aqui para conferir</p>
+            </a>
+        </section>
+
+        <section id="clientes">
+        <h3>Nossos clientes</h3>
+
+        <div id="artigosClientes"></div>
+            <article>
+                <h4> Dandara </h4>
+                <h5>Avaliado em: 08/10/2023</h5>
+
+                <figure>
+                    <img class="imgClientes" src="./img/Dandara.jpg" alt="Imagem 5">
+                </figure>
+
+                <p>
+                    Chama, Chama, Chama ordinária!!!! Tu du du pááá! <br/> Rema, rema, ordinária! olha o quibe! eu gostchu muitchu, heinn! <br/>Ordinária!! Domingo ela não vai. Tchannn!! 
+                </p>
+
+                </article>
+
+                <article>
+
+                <h4> Maria Felipa </h4>
+                <h5>Avaliado em: 09/10/2023</h5>
+
+                <figure>
+                    <img class="imgClientes" src="./img/Maria Felipa.jpg" alt="Imagem 6">                    
+                </figure>
+                
+                <p>
+                    Tchannn!! danadinha! Mainhaa! Eiiitaaa Mainhaaa!! Assim você mata o papai , viuu!!<br/> Danadaa!! Vem, vem ordinária!! Ahh mainhaa!! venha provar do meu dendê.<br/> Só na sacanageeem!! Sabe de nada inocente! 
+                </p>
+            </article>
+
+            <article>
+
+                <h4> Tereza de Benguela </h4>
+                <h5>Avaliado em: 010/10/2023</h5>
+
+                <figure>
+                    <img class="imgClientes" src="./img/tereza de benguela.jpg" alt="Imagem 7">
+                </figure>
+
+                <p>
+                    Vem minha odalisca, agora faz essa cobra coral subir!!! <br/>Que abundânciaaaa meu irmão!! Sabe de nada inocente! Só na sacanageeem!! <br/>venha provar do meu dendê. Ahh mainhaa!! Vem, vem ordinária!! Danadaa!! 
+                </p>
+            </article>
+        </section>
+
+        <section id="pedidos">
+        <h3>Meus Pedidos</h3>
+           <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>   
+                        <th>Pedidos</th>  
+                        <th>Valor (R$)</th>  
+                        <th>Quantidade</th>  
+                        <th>Data da compra</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <th>Blusa</th>
+                        <th>20,00</th>
+                        <th>1</th>
+                        <th>01/01/1999</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Vestido</th>
+                        <th>50,00</th>
+                        <th>1</th>
+                        <th>01/01/1999</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Sapato preto</th>
+                        <th>100,00</th>
+                        <th>1</th>
+                        <th>01/01/1999</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Anel</th>
+                        <th>10,00</th>
+                        <th>1</th>
+                        <th>01/01/1999</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="faleConsco">
+        <h3>Fale conosco</h3>
+            <form>
+                <label>Nome:</label><br/>
+                <input type="=text" id="nome" placeholder="Digite o seu nome"/>
+            </br></br>
+
+                <label>Email:</label><br/>
+                <input type="email" id="emailPessoal" placeholder="Digite o seu email"/>
+            </br></br>
+                
+                <label>Mensagem:</label><br/>
+                <textarea id="mensagem" placeholder="Digite aqui sua mensagem"> </textarea>
+            </br> 
+
+                <button type="submit">Enviar</button>
+                
+            </form>
+        </section>
+   
+    </main>
+
+    <section>
+         <footer>
+        Copyright | 2023 | Todos os direitos reservados
+         </footer>
+    </section>
+</body>
+
+</html>

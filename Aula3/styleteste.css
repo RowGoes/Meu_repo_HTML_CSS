@@ -1,0 +1,39 @@
+body {
+    background-color: #bfa7ff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+}
+
+h1, h2, h3 { /*aplicação de estilo encadeado */
+    color: #800080;
+}
+
+p {
+    font-weight: bold;
+    font-size: 0,75em;
+}
+
+header {
+    padding: 20px 10px;
+    background-color: #d3d3d3;
+
+    border-top: #420042;
+    border-right: #800080;
+    border-bottom: #8a2fee;
+    border-left: #bfa7ff;
+}
+
+header {
+    padding: 12px;
+    background-color: #8a2fee;
+    color: white;
+
+    text-decoration: nome;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+header {background-color: #646464;}
